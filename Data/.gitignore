@@ -1,1 +1,4 @@
-
+Data 
+.DS_Store, 
+.pyc files or
+__pycache__/ folders.
