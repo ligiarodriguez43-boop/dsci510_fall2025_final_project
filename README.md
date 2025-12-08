@@ -14,7 +14,7 @@ Data sources:
 
 Analysis: 
 
-- describe type of analysis you do
+I was able to analyze my data through ML because I wanted to see if the variables I wanted to foc
 
 
 Summary of the results: 
@@ -28,5 +28,4 @@ How to run:
 
 Loading/fetching and data processing: 
 
-I was able to gather my API data from America's Health Ranking by United Healthcare Foundation, I created an account from the website and through the website I was able to get a free API key once the email is confirmed. In norder to gather the data the website it has specific instrictions on how to gather data because the API is an GraphQL. This API ony allows clients to request data that they need and has speific instructions how do do that. In my case I needed poplutaion data in regard to U.S. Health rankings so I had but before gathering that information I had to look a the GetReports section to understand the information gathered from this portion to look at the data meaures of  
-
+I was able to gather my API data from America's Health Ranking by United Healthcare Foundation, I created an account from the website and through the website I was able to get a free API key once the email is confirmed. In order to gather the data from the website, you have to follow specific instuctions because the API is an GraphQL and this API ony allows clients to request data that they need. In my case I needed population data in regard to U.S. Health rankings, so I first had to gather information from the GetReports and see what kind of Datar reports they had acquired on the population level. Upon loooking at this section of data I looked at the meausureID and utilized the measureIDs of the following from the GetReports list: (measureID: "16465") = Risk factors (annual); (measureID: "16535") = Behaviors; (measureID: "17679") = Behavioral health & (measureID: "16540" = Overall health. I wanted to gather data that was relevant to behavior's and overall general health across the population within the U.S. After that I created a query that encompassed all the measuredIDs across the population by utilizing the GetMeasurePopulationData for all 50 states and if the predictive model could predict the overall health utilizing data from the API.  
