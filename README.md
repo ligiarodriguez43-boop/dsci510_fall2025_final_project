@@ -14,14 +14,15 @@ Data sources:
 
 Analysis: 
 
-In this project, I analyzed the 2023 BRFSS dataset to identify how behavioral and health related factors contribute to individuals’ general or overall health outcomes. I examined key predictors including obesity status, smoking behavior, and chronic disease indicators, using both individual level and prevalence based categorical variables to capture broader health patterns. These predictors were then integrated into a predictive modeling framework such as a Random Forest Classifier and I also aggregated the state level data to assess the overall health trends across the United States creating a Random Forest Regressor predictive model. This analytical approach allowed me to link personal health characteristics with population-evel patterns, forming the foundation for generating state level health estimates.
+In this project, I analyzed the 2023 BRFSS dataset and BRFSS Prevalence data and the America's Health Rankings and I was able to identify how behavioral and health related factors contribute to individuals’ general or overall health outcomes. I examined key predictors including obesity status, smoking behavior, and chronic disease indicators, using both individual level and prevalence based categorical variables to capture broader health patterns. These predictors were then integrated into a predictive modeling framework such as a Random Forest Classifier and I also aggregated the state level data to assess the overall health trends across the United States creating a Random Forest Regressor predictive model and to create a predictive model that analysed the overall health rankings across the United States. This analytical approach allowed me to link personal health characteristics with population level patterns, forming the foundation for generating state level health estimates.
 
 
 Summary of the results: 
 
-I built a predictive model to estimate individuals’ general health based on behavioral, and health-related variables. By incorporating categorical prevalence measures such as obesity rates, smoking status, chronic disease prevalence, and other variables from the BRFSS prevalence dataset, the model captured broader population-level health patterns that influence self-reported health. I then aggregated these predictors to the state level to generate estimates of overall health for all 50 states, producing results that aligned with known U.S. health rankings. Overall, the project demonstrates how BRFSS data can be used to predict both individual general health outcomes and larger state-level health trends within the United States.
+The analysis of the 2023 BRFSS and BRFSS Prevalence data demonstrated and Americas Health Rankings by United Health care provided that key data from behavioral and health-related factors, such as obesity, smoking, and chronic disease and how they can be a strong predictors of an individuals’ general health. Using a Random Forest Classifier, the model effectively estimated personal health outcomes, while aggregation to the state level and application of a Random Forest Regressor produced reliable state-level health estimates. The results revealed clear patterns linking individual health characteristics to broader population level trends, confirming that these datasets can be used to predict both personal and state level health outcomes across the United States.
 
 How to run: 
+
 - describe how to run your pipeline and reproduce results of your work/analysis, including fetching the data. We should be able to reproduce data 
 
 
