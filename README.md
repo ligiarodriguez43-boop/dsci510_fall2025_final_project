@@ -1,6 +1,7 @@
 Introduction: 
 
 AI for Health: Predicting Health Outcomes through BRFSS and U.S. Health Rankings through Machine Learning: 
+
 This project explores how predictive analytics can be used to understand and forecast population health in the United States using data from the 2023 Behavioral Risk Factor Surveillance System (BRFSS). The BRFSS is the nation’s largest health-related survey, capturing information on health behaviors, chronic conditions, and access to care. By leveraging both individual-level responses and state-level prevalence data, this project aims to build a model capable of predicting general health outcomes and estimating overall health rankings across all 50 states. The goal is to demonstrate how large-scale public health data can be transformed into meaningful insights that support data driven decision making in the health care industry.
 
 Data sources: 
