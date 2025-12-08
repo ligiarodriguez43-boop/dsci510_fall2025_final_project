@@ -9,8 +9,9 @@ Data sources:
 Analysis:  - describe type of analysis you do
 
 
-Summary of the results:  - you can leave this section empty if you don’t have results yet. Update it as you complete your project
+Summary of the results: 
 
+Using the 2023 BRFSS data, I built a predictive model to estimate individuals’ general health based on behavioral, and health-related variables. By incorporating categorical prevalence measures such as obesity rates, smoking status, chronic disease prevalence, and other variables from the BRFSS prevalence dataset, the model captured broader population-level health patterns that influence self-reported health. I then aggregated these predictors to the state level to generate estimates of overall health for all 50 states, producing results that aligned with known U.S. health rankings. Overall, the project demonstrates how BRFSS data can be used to predict both individual general health outcomes and larger state-level health trends within the United States.
 
 How to run: 
 - describe how to run your pipeline and reproduce results of your work/analysis, including fetching the data. We should be able to reproduce data 
@@ -18,4 +19,6 @@ How to run:
 
 
 Loading/fetching and data processing: 
+I was able to gather my API data from America's Health Ranking by United Healthcare Foundation, I created an account from the website and through the website I was able to get a free API key once the email is confirmed. In norder to gather the data the website it has specific instrictions on how to gather data because the API is an GraphQL. This API ony allows clients to request data that they need and has speific instructions how do do that. In my case I needed poplutaion data in regard to U.S. Health rankings so I had but before gathering that information I had to look a the GetReports section to understand the information gathered from this portion to look at the data meaures of  
+
 Describe what API keys for what services we need to have, don’t put your API keys here or anywhere in the repository.
