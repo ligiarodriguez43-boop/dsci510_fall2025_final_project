@@ -1,14 +1,15 @@
+# config.py
 from pathlib import Path
 from dotenv import load_dotenv
 import os
 
 
-# Load .env file
-env_path = Path(__file__).resolve().parent.parent / '.env'
+# Load .env.example.txt file
+env_path = Path(__file__).resolve().parent.parent / '.env.example.txt'
 if env_path.exists():
     load_dotenv(dotenv_path=env_path)
 else:
-    print(f"Warning: .env file not found at {env_path}. You must create one with required credentials!")
+    print(f"Warning: .env.example.txt file not found at {env_path}. You must create one with required credentials!")
 
 
 # Helper function
