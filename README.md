@@ -14,12 +14,12 @@ Data sources:
 
 Analysis: 
 
-I was able to analyze my data through ML because I wanted to see if the variables I wanted to foc
+In this project, I analyzed the 2023 BRFSS dataset to identify how behavioral and health related factors contribute to individuals’ general or overall health outcomes. I examined key predictors including obesity status, smoking behavior, and chronic disease indicators, using both individual level and prevalence based categorical variables to capture broader health patterns. These predictors were then integrated into a predictive modeling framework such as a Random Forest Classifier and I also aggregated the state level data to assess the overall health trends across the United States creating a Random Forest Regressor predictive model. This analytical approach allowed me to link personal health characteristics with population-evel patterns, forming the foundation for generating state level health estimates.
 
 
 Summary of the results: 
 
-Using the 2023 BRFSS data, I built a predictive model to estimate individuals’ general health based on behavioral, and health-related variables. By incorporating categorical prevalence measures such as obesity rates, smoking status, chronic disease prevalence, and other variables from the BRFSS prevalence dataset, the model captured broader population-level health patterns that influence self-reported health. I then aggregated these predictors to the state level to generate estimates of overall health for all 50 states, producing results that aligned with known U.S. health rankings. Overall, the project demonstrates how BRFSS data can be used to predict both individual general health outcomes and larger state-level health trends within the United States.
+I built a predictive model to estimate individuals’ general health based on behavioral, and health-related variables. By incorporating categorical prevalence measures such as obesity rates, smoking status, chronic disease prevalence, and other variables from the BRFSS prevalence dataset, the model captured broader population-level health patterns that influence self-reported health. I then aggregated these predictors to the state level to generate estimates of overall health for all 50 states, producing results that aligned with known U.S. health rankings. Overall, the project demonstrates how BRFSS data can be used to predict both individual general health outcomes and larger state-level health trends within the United States.
 
 How to run: 
 - describe how to run your pipeline and reproduce results of your work/analysis, including fetching the data. We should be able to reproduce data 
